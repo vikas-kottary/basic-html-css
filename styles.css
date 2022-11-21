@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.section-1{
+    height: 350px;
+    background-image: url("images/maravanthe.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main-title{
+    padding: 3px 15px;
+    background-color: #1D3557;
+    color: #D4D5D8;
+    border-radius: 15px;
+}
+
+#sub-title{
+    padding: 3px 15px;
+    color: #FFFFFF;
+    background-color: #457B9D;
+    border-radius: 15px;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+   background: linear-gradient(#103160,#26375E, #85879A)
+}
+
+#section-2-title{
+    padding: 3px 15px;
+    color: #D4D5D8;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 1px  black;
+}
+
+#sub-row-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+#sub-row-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.img-div{
+    display: flex;
+    flex-direction: column;
+    color: #D9D9D9;
+    text-shadow: 1px 1px 1px  black;
+}
+
+.section-3{
+    display: flex;
+    align-items: center;
+    background: radial-gradient(#290F0F,#1A777D);
+}
+
+.inner-section-3{
+    margin: 25px;
+    padding: 10px;
+    background-color:#D9D9D9 ;
+}
